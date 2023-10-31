@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EasyPeasyLayout"
-  s.version          = "1.2.0"
+  s.version          = "2.0.0"
   s.summary          = "EasyPeasy is a Swift framework that eases the creation of
                         Autolayout constraints programmatically"
   s.description      = <<-DESC
