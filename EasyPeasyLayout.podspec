@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EasyPeasyLayout"
-  s.version          = "2.0.1"
+  s.version          = "2.0.2"
   s.summary          = "EasyPeasy is a Swift framework that eases the creation of
                         Autolayout constraints programmatically"
   s.description      = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/astrokin/EasyPeasy"
   s.license          = 'MIT'
   s.author           = { "Carlos Vidal" => "nakioparkour@gmail.com" }
-  s.source           = { :git => "git@github.com:astrokin/EasyPeasy.git", :tag => "v#{s.version.to_s}" }
+  s.source           = { :git => "git@github.com:astrokin/EasyPeasy.git", :tag => "#{s.version.to_s}" }
   s.social_media_url = 'https://twitter.com/carlostify'
 
   s.ios.deployment_target     = '13.0'
